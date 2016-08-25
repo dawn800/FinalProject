@@ -1,0 +1,553 @@
+/* Mobile */
+*{
+      box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    background-color: #ececec;
+    margin:15%;
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+h1{
+    color: #fc5c05;
+    font-family: helvetica;
+    font-size: 13px;
+    padding: 0px 5px 0 8px;
+    text-transform: uppercase;
+}
+
+h2{
+    color: #ffffff;
+    float: left;
+    font-family: courier;
+    font-size: 10px;
+    margin-left: 12px;
+}
+
+h3{
+    color: #666666;
+    font-family: helvetica;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 5px;   
+}
+
+h4{
+    color: #666666;
+    font-family: helvetica;
+    font-size: 11px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 40px;    
+}
+
+h5{
+    color: #666666;
+    float: left;
+    font-family: courier;
+    font-size: 11px;
+    padding-right: 10px; 
+    margin-left: 12px;
+   
+}
+
+.articles{
+    clear: both;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+
+
+#bottom-menu{
+    clear: both;
+    background-color: none;
+    width: 100%;
+  
+}
+
+.content-top{
+    width: 100%;
+}
+
+img.topmain-image{
+    width: 90%;
+}
+
+
+img.name{
+    width: 70%;
+}
+
+img.bottommain-image{
+    width: 0%;
+}
+
+.subsection {
+     position: relative;
+    background-color: none;
+    float: left;
+    width: 100%;
+    font-size: 14px;
+
+}
+
+.subsection2 {
+     position: relative;
+     float: left;
+    background-color: none;
+    width: 100%;
+
+}
+
+.subsection3 {
+  position: relative;
+  background-color: none;
+  float: left;
+  width: 100%;
+
+}
+
+#results{
+    clear: both;
+    position: relative;
+    float: left;
+
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 10px;
+
+}
+
+
+#tips{
+    clear: both;
+    position: relative;
+   float: left;
+    height: 700px;
+    width: 80%;
+    margin: 12px 5px 12px 5px;
+ 
+}
+
+@media screen and (max-width: 750px)
+
+{#social-top {
+display: none;}
+}
+
+
+
+#mainContent{
+    background-color:#666666;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border:2px solid #fff;
+	height: 500px;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    background-color:#c0baac;
+    box-sizing: border-box;
+    width: 90%;
+    margin-top: 5px;
+    padding: 2px 8px 2px 0px; 
+    float: left;
+}
+
+
+img.twitter{
+    width: 28px;
+    float: right;
+
+}
+
+img.fb {
+    width: 26px;
+    float: right;
+}
+
+img.yt {
+    width: 26px;
+    float: right;
+}
+
+img.pin {
+    width: 26px;
+    float: right;
+}
+
+img.tumbler{
+    width: 26px;
+    float: right;
+}
+
+#recipe{
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    height: 510px;
+    padding: 5px 5px 5px 5px;
+    background-color: #ffffff;
+    width: 90%
+
+}
+
+#choice{
+    clear: both;
+    margin-top: 8px;
+    background-color: #d1f2fb;
+    font-family: cursive;
+    font-size: 11px;
+    font-weight: bold;
+    float: left;
+}
+
+
+#choice2{
+    clear: both;
+    margin-top: 8px;
+    background-color: #d1f2fb;
+    font-family: cursive;
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+}
+
+#playGame{
+    clear: both;
+    position: relative;
+    font-family: helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    width: 160px;
+    margin-top: 8px;
+  
+}
+
+#socialbottom{
+    clear: both;
+    position: relative;
+    float: right;
+}
+
+
+
+
+
+/* tablet/computer*/
+
+@media(min-width:750px){
+    
+    body{
+        background-color:#ececec;
+        margin:5%;
+    }
+
+    nav{
+        display:none;
+    }
+
+div #social-top{
+    position: relative; 
+    display: all;   
+    visibility: all;
+    width: 100%;
+}    
+
+h1{
+    color: #1676c0;
+    float: right;
+    font-family: helvetica;
+    font-size: 12px;
+    padding: 10px 4px 0 4px;
+
+}
+
+h2{
+    color: #ffffff;
+    float: left;
+    font-family: courier;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;    
+}
+
+h3{
+    color: #4a2010;
+    font-family: tahoma;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 8px;
+    padding-top: 10px;     
+ 
+}
+
+h4{
+    color: #4a2010;
+    font-family: arial;
+    font-size: 11px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 11px;    
+}
+
+h5{
+    color: #000000;
+    float: left;
+    font-family: courier;
+    font-size: 12px;
+    font-weight: none;
+    padding-left: 6px;    
+}
+
+div.articles{
+    background-color: #000000;
+    width: 100%;
+    padding-bottom: 30px;
+    margin-top: 20px; 
+}
+
+
+
+
+#results{
+    position: relative;
+    float: left;
+    background-color: #ffffff;
+    
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 10px;
+
+}
+
+#bottom-menu{
+    clear: both;
+    position: relative;
+    background-color: none;
+    width: 80%;
+    
+    padding-top: 0px;
+    padding-left: 5px;
+}
+
+#content-top{
+    width: 100%;
+}
+
+div.block{
+    width: 100%
+    background-color: #000000;
+    height: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#social-bottom{
+    visibility: hidden;
+    
+}
+
+img.topmain-image{
+    width: 100%;
+}
+
+
+img.name{
+    width: 40%;
+}
+
+img.bottommain-image{
+    width: 100%;
+}
+
+img.frontimg1{
+    width: 150px;
+}
+
+img.frontimg2{
+    width: 150px;
+}
+
+img.frontimg3{
+    width: 150px;
+}
+
+section.subsection {
+  background-color: none;
+  margin-top: 20px;
+    position: relative;
+    width: 32%;
+  padding: 0px 8px 0px 8px;
+}
+
+section.subsection2 {
+  background-color: none;
+  margin-top: 20px;
+  position: relative;
+  width: 32%;
+  padding: 0px 8px 0px 8px;
+
+}
+
+section.subsection3 {
+  background-color: none;
+  margin-top: 20px;
+  position: relative;
+  width: 32%;
+  padding: 0px 8px 0px 8px;
+}
+
+
+#mainContent{
+    background-color:#666666;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border:2px solid #fff;
+    height: 500px;
+    text-align: center;
+}
+
+#recipe{
+    position: relative;
+  
+    margin-top: 10px;
+    height: 550px;
+    padding: 5px 5px 25px 5px;
+    
+    width: 100%
+
+}
+
+#choice{
+
+    background-color: #d1f2fb;
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+    margin-left: 10px;
+}
+
+
+#choice2{
+    position: relative;
+    background-color: #d1f2fb;
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: bold;
+    float: left; 
+    margin-left: 10px;   
+}
+
+#playGame{
+    padding: 8px 0px 8px 5px;
+    margin: 5px 10px 15px 10px;
+    font-family: helvetica;
+    font-size: 15px;
+    font-weight: bold;
+    width: 155px;
+    float: left;
+
+}
+
+div#tips{
+    clear: both;
+    position: relative;
+    background-color: #ffffff;
+   float: left;
+    height: 300px;
+    width: 100%;
+    margin: 12px 5px 12px 5px;
+ 
+}
+
+
+
+footer {
+ clear: both;
+    position: relative;
+    background-color:#c0baac;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 5px;
+    padding: 2px 8px 2px 0px; 
+    float: left;
+
+}
+
+
+img.twitter{
+    width: 38px;
+    float: right;
+    padding: 3px;
+
+}
+
+img.fb {
+    width: 36px;
+    float: right;
+    padding: 3px;
+}
+
+img.yt {
+    width: 36px;
+    float: right;
+    padding: 3px;
+}
+
+img.pin {
+    width: 36px;
+    float: right;
+    padding: 3px;
+}
+
+img.tumbler{
+    width: 36px;
+    float: right;
+    padding: 3px;
+}
+
+img.boho{
+    width: 200px;
+    padding: 15px;
+}
+
+img.spring{
+    width: 200px;
+    padding: 15px;
+}
+
+img.comfy{
+    width: 200px;
+    padding: 15px;
+}
+
+#socialbottom {
+
+}
+
+div.socialmedia{
+    float: right;
+    padding-top: 6px;
+}
+
+}

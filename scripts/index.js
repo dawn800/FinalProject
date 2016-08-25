@@ -1,3 +1,12 @@
+//Pseudo Code
+/*
+
+Generate ideas for accessories to match users outfit; 
+User enters a combination and the computer provides 
+ideas of apparell to match.
+
+*/
+
 $(document).ready(function()
 {
 	console.log('loaded');
@@ -14,48 +23,48 @@ function playGame(event){
 
 	//var cpuChoice = options[Math.floor(Math.random()*options.length)];
 
-	display('');
+
 
 	if (userChoice === userChoice2){
 		display('Invalid Pairings');
 	}
 
 	else if (userChoice === 'whitetop' && userChoice2 === 'bluejeans') {
-		display('./images/goldaccess.jpg');
+		display('images/2teal-access.jpg');
 }
 
 else if (userChoice === 'blacktop' && userChoice2 === 'bluejeans') {
-		display('../images/silveraccess.jpg');
+		display('images/2red-access.jpg');
 }
 
 else if (userChoice === 'coloredtop' && userChoice2 === 'bluejeans') {
-		display('../images/goldaccess.jpg');
+		display('images/2silver-accessories.jpg');
 }
 
 
 	else if (userChoice === 'whitetop' && userChoice2 === 'blackpants') {
-		display('Silver Jewelry, http://www.polyvore.com/cgi/shop?.search_src=nav&query=gold+accessories');
+		display('images/2blue-access.jpg');
 }
 
 else if (userChoice === 'blacktop' && userChoice2 === 'blackpants') {
-		display('Gold Jewelry, http://www.polyvore.com/cgi/shop?.search_src=nav&query=gold+accessories');
+		display('images/2blackgold-access.jpg');
 }
 
 else if (userChoice === 'coloredtop' && userChoice2 === 'blackpants') {
-		display('Gold Jewelry, http://www.polyvore.com/cgi/shop?.search_src=nav&query=gold+accessories');
+		display('images/2silver-accessories.jpg');
 }
 
 
 else if (userChoice === 'whitetop' && userChoice2 === 'whitepants') {
-		display('Silver Jewelry, http://www.polyvore.com/cgi/shop?.search_src=nav&query=gold+accessories');
+		display('images/2teal-access.jpg');
 }
 
 else if (userChoice === 'blacktop' && userChoice2 === 'whitepants') {
-		display('Gold Jewelry, http://www.polyvore.com/cgi/shop?.search_src=nav&query=gold+accessories');
+		display('images/2red-access.jpg');
 }
 
 else if (userChoice === 'coloredtop' && userChoice2 === 'whitepants') {
-		display('Gold Jewelry, http://www.polyvore.com/cgi/shop?.search_src=nav&query=gold+accessories');
+		display('images/2blackgold-access.jpg');
 }
 
 else{
@@ -76,19 +85,5 @@ function display(textToDisplay){
 
 
 
-//Pseudo Code
-/*
 
-Ask for a choice of Rock Paper Scissors from User
-Generate Random Computer Value of Rock, Paper, Scissors
-Compare Two Values
-
-If Rock and Paper -> Paper Wins
-If Rock and Scissors -> Rock Wins
-If Scissors and Paper -> Scissors Wins
-If Both are Same --> Tie
-
-Display Winner, Loser or Tie
-
-*/
 
